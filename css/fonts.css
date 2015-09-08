@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "PFDinDisplayProMed";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PFDinDisplayProMed/PFDinDisplayProMed.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinDisplayProMed/PFDinDisplayProMed.woff") format("woff"), url("../fonts/PFDinDisplayProMed/PFDinDisplayProMed.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PFDinDisplayProReg";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/PFDinDisplayProReg/PFDinDisplayProReg.eot?#iefix") format("embedded-opentype"), url("../fonts/PFDinDisplayProReg/PFDinDisplayProReg.woff") format("woff"), url("../fonts/PFDinDisplayProReg/PFDinDisplayProReg.ttf") format("truetype");
+}
+

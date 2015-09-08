@@ -1,0 +1,581 @@
+body {
+  font-family: "OpenSansRegular", sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+h2, h3 {
+  font-family: "PFDinDisplayProReg";
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 28px;
+  color: #868686;
+}
+
+h3 {
+  color: #f48705;
+  margin: 10px 0;
+}
+
+input, button {
+  border-radius: 3px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 19px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 280px;
+  height: 43px;
+  color: #fff;
+}
+
+input {
+  background-color: #FFF;
+  border: none;
+  text-indent: 25px;
+}
+
+.btn-orange {
+  background-color: #f48705;
+  border-top: 2px #f8b666 solid;
+  border-bottom: 2px #9f5803 solid;
+}
+
+.btn-orange:hover {
+  background-color: #fb9923;
+}
+
+.btn-blue {
+  background-color: #006cb5;
+  border-top: 2px #84b8db solid;
+  border-bottom: 2px #29465f solid;
+}
+
+.btn-blue:hover {
+  background-color: #017bcd;
+}
+
+#wrapper {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.content-wrap {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.orange {
+  color: #f48705 !important;
+}
+
+header {
+  position: relative;
+}
+
+header .header-top-line {
+  background-color: #FFF;
+  padding: 45px 0 20px;
+}
+
+header .header-top-line .content-wrap .header-info-wrap {
+  overflow: hidden;
+}
+
+header .header-top-line .content-wrap .header-info-wrap h1, header .header-top-line .content-wrap .header-info-wrap span {
+  font-family: "PFDinDisplayProMed";
+  font-size: 24px;
+  color: #442d26;
+}
+
+header .header-top-line .content-wrap .header-info-wrap h1 {
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  float: left;
+}
+
+header .header-top-line .content-wrap .header-info-wrap .phone {
+  float: right;
+}
+
+header .header-img {
+  background-image: url("../img/header-bg-img.jpg");
+  height: 700px;
+}
+
+header .header-img form {
+  padding: 19px;
+  background-image: url("../img/header-form-bg.png");
+  width: 900px;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -450px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+header .header-img input {
+  height: 50px;
+  width: 230px;
+}
+
+header .header-img button {
+  height: 50px;
+}
+
+header .header-img input, header .header-img button {
+  margin: 20px 18px;
+}
+
+#advantages {
+  padding: 20px;
+  background-image: url("../img/advantage-bg.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+#advantages h2 {
+  margin: 20px 0 45px;
+}
+
+#advantages .advantage {
+  width: 28%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 2%;
+}
+
+#advantages .advantage .line {
+  height: 1px;
+  width: 70px;
+  background-color: #f48705;
+  margin: 0 auto;
+}
+
+#advantages .advantage p {
+  color: #868686;
+}
+
+#sale {
+  background-image: url("../img/sale-bg.jpg");
+  padding: 40px;
+  min-height: 210px;
+}
+
+#sale img {
+  position: absolute;
+  top: -37px;
+  left: 80px;
+}
+
+#sale form h4 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "PFDinDisplayProReg";
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  -webkit-text-shadow: 1px 1px 0px #7d5436;
+  -moz-text-shadow: 1px 1px 0px #7d5436;
+  text-shadow: 1px 1px 0px #7d5436;
+}
+
+#sale form input {
+  border-top: 2px #946845 solid;
+  border-bottom: 2px #d6bba3 solid;
+}
+
+.form {
+  width: 400px;
+  text-align: center;
+  position: absolute;
+  right: 80px;
+}
+
+.form h4 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "PFDinDisplayProReg";
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.form input {
+  width: 280px;
+  height: 44px;
+}
+
+.form input, .form button {
+  margin: 7px 0;
+}
+
+#price {
+  text-align: center;
+  padding: 70px 0;
+}
+
+#price h2 {
+  margin: 0 0 50px;
+}
+
+#price .tabs-wrap {
+  margin: 0 auto;
+}
+
+#price .tabs-wrap .tabs {
+  margin-bottom: 50px;
+}
+
+#price .tabs-wrap .tabs .tab {
+  font-size: 25px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  color: #868686;
+  font-family: "PFDinDisplayProReg";
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#price .tabs-wrap .tabs .tab:hover {
+  color: #f48705;
+}
+
+#price .tabs-wrap .tabs .active {
+  color: #f48705;
+  border: 2px #f48705 solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#price .tabs-wrap .tab-item {
+  display: none;
+}
+
+#price .tabs-wrap .tab-item table {
+  width: 920px;
+  border-collapse: collapse;
+  color: #868686;
+  text-align: left;
+  margin: 0 auto;
+}
+
+#price .tabs-wrap .tab-item table tr td {
+  width: 132px;
+  box-sizing: border-box;
+  border: 2px #f48705 solid;
+  padding: 3px 15px;
+}
+
+#price .tabs-wrap .tab-item table .thickness {
+  color: #442d26;
+  text-align: center;
+}
+
+#price .tabs-wrap .tab-item table .thickness td {
+  padding: 4px 0;
+}
+
+#price .tabs-wrap .tab-item table .width {
+  color: #279a1b;
+  text-align: center;
+  padding: 0;
+}
+
+#price .tabs-wrap .tab-item table .th-price {
+  color: #f48705;
+  text-align: center;
+}
+
+#price .tabs-wrap .tab-item table .th-price td {
+  padding: 0;
+}
+
+#price .tabs-wrap .tab-item .glued {
+  width: 277px;
+}
+
+#price .tabs-wrap .tab-item .glued td {
+  width: 137px;
+  box-sizing: border-box;
+}
+
+#price .tabs-wrap .tab-item:first-child {
+  display: block;
+}
+
+#price .dowload-wrap {
+  text-align: right;
+  margin-top: 15px;
+}
+
+#price .dowload-wrap a {
+  color: #f48705;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+#our-works {
+  background-image: url("../img/our-works-bg.png");
+  min-height: 500px;
+  padding: 50px 0 100px;
+  position: relative;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+  box-shadow: inset 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+  -webkit-text-shadow: 1px 1px 0px #fff;
+  -moz-text-shadow: 1px 1px 0px #fff;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+#our-works .arrow {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+#our-works p {
+  color: #868686;
+  margin: 0 70px 40px;
+}
+
+#our-works #owl-demo {
+  text-align: center;
+}
+
+#our-works #owl-demo .container {
+  padding: 10px;
+}
+
+#our-works #owl-demo .work-img-box {
+  width: 775px;
+  height: 467px;
+  box-sizing: border-box;
+  border: 13px #fff solid;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.5);
+}
+
+#our-works #owl-demo .owl-pagination {
+  display: none;
+}
+
+#our-works #owl-demo .owl-prev, #our-works #owl-demo .owl-next, #our-works #owl-demo .owl-prev:hover, #our-works #owl-demo .owl-next:hover {
+  width: 22px;
+  height: 41px;
+  background-image: url("../img/owl-controls.png");
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+}
+
+#our-works #owl-demo .owl-prev {
+  background-position: 0 0;
+  left: 0;
+}
+
+#our-works #owl-demo .owl-prev:hover {
+  background-position: -44px 0;
+}
+
+#our-works #owl-demo .owl-next {
+  background-position: -22px 0;
+  right: 0;
+}
+
+#our-works #owl-demo .owl-next:hover {
+  background-position: -66px 0;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  font-size: 0;
+}
+
+#veka {
+  background-image: url("../img/veka-bg.png");
+  background-repeat: no-repeat;
+  height: 297px;
+  padding: 40px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#veka .veka-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#veka .present-installation {
+  position: absolute;
+  left: 95px;
+  top: -40px;
+}
+
+#veka .form {
+  right: -50px;
+  top: 20px;
+}
+
+#veka .form input {
+  border-top: 2px #b8b8ba solid;
+  border-bottom: 2px #d0dde8 solid;
+}
+
+#how-work {
+  text-align: center;
+  padding: 80px;
+}
+
+#how-work h2 {
+  margin: 0 0 50px;
+}
+
+#how-work .steps-container {
+  margin: 0 auto;
+  width: 525px;
+}
+
+#how-work .steps-container img {
+  float: left;
+}
+
+#how-work .steps-container p {
+  height: 100px;
+  width: 400px;
+  margin: 15px 0;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  color: #868686;
+}
+
+footer {
+  background-color: #584031;
+  background-image: url("../img/footer-bg.png");
+  padding: 20px 0;
+  height: 108px;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .footer-col {
+  color: #fff;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer .right-col {
+  text-align: right;
+  right: 0;
+}
+
+footer .center-col {
+  left: 50%;
+  margin-left: -200px;
+}
+
+footer .right-col, footer .center-col {
+  position: absolute;
+  top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#request {
+  height: 310px;
+  width: 610px;
+  margin: auto;
+  background-image: url("../img/request-bg.png");
+  text-align: center;
+  padding: 50px 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#request h3 {
+  font-size: 28px;
+}
+
+#request p {
+  color: #868686;
+}
+
+#request button {
+  background-color: #f48705;
+  margin-top: 50px;
+  border-top: 2px #f8b666 solid;
+  border-bottom: 2px #9f5803 solid;
+}
+
+#request button:hover {
+  background-color: #fb9923;
+}
+
+#request button.mfp-close, #request button.mfp-arrow {
+  background-color: transparent;
+  border: none;
+  margin-top: 0;
+}
+
+#request button.mfp-close:hover, #request button.mfp-arrow:hover {
+  color: #f48705;
+}
+
+.ymaps-2-1-29-copyright__content,
+.ymaps-2-1-29-button__text,
+.ymaps-2-1-29-button__icon,
+.ymaps-2-1-29-islets_gotoymaps__text,
+.ymaps-2-1-29-button__icon,
+.ymaps-2-1-29-button__icon_icon_geolocation,
+.ymaps-2-1-29-button,
+.ymaps-2-1-29-zoom,
+.ymaps-2-1-29-input__box {
+  display: none !important;
+}
+
+.clear {
+  clear: right;
+}
