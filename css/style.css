@@ -193,6 +193,7 @@ header .header-img input, header .header-img button {
   position: absolute;
   top: -37px;
   left: 80px;
+
 }
 
 #sale form h4 {
@@ -340,6 +341,7 @@ header .header-img input, header .header-img button {
   color: #f48705;
   text-decoration: none;
   margin-right: 20px;
+  border-bottom: 1px #f48705 dashed
 }
 
 #our-works {

@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+    $(".advantage").animated("zoomIn", "zoomIn");
+    
 	$(".tabs-wrap .tab").click(function() {
 		$(".tabs-wrap .tab").removeClass("active").eq($(this).index()).addClass("active");
 		$(".tabs-wrap .tab-item").hide().eq($(this).index()).fadeIn()
@@ -47,6 +48,6 @@ $(document).ready(function() {
 
 });
 
-$(window).load(function() {
-    $(".advantage").animated("zoomIn", "zoomIn")
-});
+// $(window).load(function() {
+//     $(".advantage").animated("zoomIn", "zoomIn");
+// });
