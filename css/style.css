@@ -9,15 +9,7 @@ body {
   -webkit-font-smoothing: antialised;
 }
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red;
-}
 
-body input:required:valid,
-body textarea:required:valid {
-  color: green;
-}
 
 h2, h3 {
   font-family: "PFDinDisplayProReg";
